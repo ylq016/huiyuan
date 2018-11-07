@@ -5,9 +5,9 @@ if (!isset ($_SESSION)) {
 	
 }
  $hostname="localhost"; //mysql地址
- $basename="root"; //mysql用户名
- $basepass="hszz02"; //mysql密码
- $database="huiyuan"; //mysql数据库名称
+ $basename=""; //mysql用户名
+ $basepass=""; //mysql密码
+ $database=""; //mysql数据库名称
 
  $conn=mysql_connect($hostname,$basename,$basepass)or die("error!"); //连接mysql              
  mysql_select_db($database,$conn); //选择mysql数据库
